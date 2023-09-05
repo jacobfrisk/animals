@@ -21,7 +21,6 @@ function loadJSON() {
 
 function prepareObjects(jsonData) {
   jsonData.forEach((jsonObject) => {
-    // TODO: Create new object with cleaned data - and store that in the allAnimals array
     // Fullname strengen splittes op i sit eget array
     const newArray = jsonObject.fullname.split(" ");
 
